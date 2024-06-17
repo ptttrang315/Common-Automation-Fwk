@@ -1,0 +1,24 @@
+Ensure Python is installed in your system (Tested in Python version 3.12)
+
+Install Poetry 
+
+```Bash
+pip install poetry
+```
+Install dependencies needed for the project
+
+```Bash
+poetry install
+```
+Build the test library
+```Bash
+poetry build
+```
+Activate the virtual environment in project
+```Bash
+.venv/Scripts/activate
+```
+Install the test library to the virtual environment
+```Bash
+pip install --force-reinstall --find-links=dist trangptt_test_library
+```
